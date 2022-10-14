@@ -34,3 +34,18 @@ Projects of interest:
 - [Ariane](https://github.com/openhwgroup/cva6)
 - [CV32E40P](https://github.com/openhwgroup/cv32e40p)
 - [OpenPiton](https://github.com/PrincetonUniversity/openpiton)
+
+
+Tools:
+- [RV toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain)
+- [Spike RISC-V ISA Simulator](https://github.com/riscv-software-src/riscv-isa-sim)
+- [RISC-V Tools](https://github.com/riscv-software-src/riscv-tools)
+
+Environments:
+- [Nix](https://nixos.org/)
+    - [Nix Templates](https://github.com/nix-dot-dev/getting-started-nix-template)
+    - [Nix Manual](https://nixos.org/manual/nix/stable/language/index.html)
+    - [Declarative and Reproducible](https://nixos.org/guides/declarative-and-reproducible-developer-environments.html#declarative-reproducible-envs)
+- LXD
+    - Bind mount `\home\<user>` and translate UID to <user> such that full user access is given. Furthermore, make use of *dotfiles* to conserve user default working environment.
+- Docker
